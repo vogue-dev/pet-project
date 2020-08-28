@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5350dea5.chunk.css",
-    "main.js": "/static/js/main.0cd5c945.chunk.js",
-    "main.js.map": "/static/js/main.0cd5c945.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.9ec21ce7.chunk.js": "/static/js/2.9ec21ce7.chunk.js",
-    "static/js/2.9ec21ce7.chunk.js.map": "/static/js/2.9ec21ce7.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.51e3200d50763d8f3072ebd328240062.js": "/precache-manifest.51e3200d50763d8f3072ebd328240062.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5350dea5.chunk.css.map": "/static/css/main.5350dea5.chunk.css.map",
-    "static/js/2.9ec21ce7.chunk.js.LICENSE.txt": "/static/js/2.9ec21ce7.chunk.js.LICENSE.txt",
-    "static/media/button__close.png": "/static/media/button__close.b1aecd10.png",
-    "static/media/Main.css": "/static/media/wow.83ada8d2.jpg",
-    "static/media/WeatherApp.css": "/static/media/polygon.cc54c19b.jpg"
+    "main.css": "/pet-project/static/css/main.5848c22e.chunk.css",
+    "main.js": "/pet-project/static/js/main.c510589b.chunk.js",
+    "main.js.map": "/pet-project/static/js/main.c510589b.chunk.js.map",
+    "runtime-main.js": "/pet-project/static/js/runtime-main.043af224.js",
+    "runtime-main.js.map": "/pet-project/static/js/runtime-main.043af224.js.map",
+    "static/js/2.9ec21ce7.chunk.js": "/pet-project/static/js/2.9ec21ce7.chunk.js",
+    "static/js/2.9ec21ce7.chunk.js.map": "/pet-project/static/js/2.9ec21ce7.chunk.js.map",
+    "index.html": "/pet-project/index.html",
+    "precache-manifest.0f2beb03172795a4fb959306ccd09b6c.js": "/pet-project/precache-manifest.0f2beb03172795a4fb959306ccd09b6c.js",
+    "service-worker.js": "/pet-project/service-worker.js",
+    "static/css/main.5848c22e.chunk.css.map": "/pet-project/static/css/main.5848c22e.chunk.css.map",
+    "static/js/2.9ec21ce7.chunk.js.LICENSE.txt": "/pet-project/static/js/2.9ec21ce7.chunk.js.LICENSE.txt",
+    "static/media/button__close.png": "/pet-project/static/media/button__close.b1aecd10.png",
+    "static/media/Main.css": "/pet-project/static/media/wow.83ada8d2.jpg",
+    "static/media/WeatherApp.css": "/pet-project/static/media/polygon.cc54c19b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.043af224.js",
     "static/js/2.9ec21ce7.chunk.js",
-    "static/css/main.5350dea5.chunk.css",
-    "static/js/main.0cd5c945.chunk.js"
+    "static/css/main.5848c22e.chunk.css",
+    "static/js/main.c510589b.chunk.js"
   ]
 }

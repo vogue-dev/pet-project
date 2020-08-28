@@ -1,0 +1,15 @@
+.calculator__display {
+    background-color: #565656;
+    text-align: right;
+    height: 81px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .display__wrap {
+    width: 90%;
+    font-size: 48px;
+    font-weight: 300;
+  }

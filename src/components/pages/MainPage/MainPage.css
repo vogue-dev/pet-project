@@ -1,0 +1,44 @@
+main {
+    margin-top: -60px;
+}
+
+main .container {
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.lvl-1 {
+    padding: 15px 0 15px 15px;
+}
+.lvl-2 {
+    padding: 10px 0 10px 25px
+}
+
+.container-left {
+    flex: 2;
+}
+
+.container-content {
+    height: 100%;
+    width: 100%;
+    flex: 8;
+}
+
+.first__block, .second__block {
+    padding-bottom: 60px;
+    height: 100vh;
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+    -moz-background-size: cover; /* Firefox 3.6+ */
+    -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: cover; /* Opera 9.6+ */
+    background-size: cover; /* Современные браузеры */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first__block { background: url(../../../img/wow.jpg) no-repeat; }
+.second__block { background: url(../../../img/creative.jpg) no-repeat; padding-top: 0px; }

@@ -1,0 +1,77 @@
+$border-radius: 3px;
+
+.clicker-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    background: linear-gradient(45deg, rgb(172, 255, 255) 0%, rgb(111, 197, 255) 50%, rgb(77, 133, 255) 100%);
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */ 
+    -ms-user-select: none;
+}
+
+.click__points {
+    background-color: lightskyblue;
+    padding: 15px 50px;
+    border-radius: $border-radius;
+    margin: 5px;
+}
+
+.points { font-size: 36px; }
+
+.clicker__game {
+    min-width: 350px;
+    text-align: center;
+}
+
+.increment {
+    display: flex;
+    height: 50px;
+    margin: 5px;
+}
+
+.increment-click { 
+    flex: 5;
+    padding: 10px 20px;
+}
+
+.increment-click-upgrade {
+    font-size: 11px;
+    flex: 2;
+    margin-left: 5px;
+}
+
+.increment-click, .increment-click-upgrade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rosybrown;
+    border-radius: $border-radius;
+}
+
+.auto-clicker, .click-machine, .click-factory {
+    background-color: rosybrown;
+    border-radius: $border-radius;
+    margin: 5px;
+}
+
+.increment-click,
+.increment-click-upgrade.active,
+.auto-clicker.active, 
+.click-machine.active, 
+.click-factory.active {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.increment-click:hover, 
+.increment-click-upgrade.active:hover,
+.auto-clicker.active:hover, 
+.click-machine.active:hover, 
+.click-factory.active:hover { 
+    background-color: greenyellow; 
+}

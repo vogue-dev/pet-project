@@ -1,0 +1,57 @@
+/**
+ * Variables
+ */
+ $button-bg: #0D52E9;
+ $speed: 0.6s;
+ $delay: ($speed * .5);
+ $easing: cubic-bezier(.55,0,.1,1);
+ 
+ 
+ /**
+  * Base styles
+  */
+ body,
+ html {
+   background: #080616;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+ }
+ 
+ /**
+  * Modal
+  */
+ .modal {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   margin: 0 auto;
+   background-color: #fff;
+   width: 600px;
+   max-width: 75rem;
+   min-height: 20rem;
+   padding: 1rem;
+   border-radius: 3px;
+   opacity: 0;
+   overflow-y: auto;
+   visibility: hidden;
+   box-shadow: 0 2px 10px rgba(#000, 0.1);
+   backface-visibility: hidden;
+   transform: scale(1.2);
+   transition: all $speed $easing;
+   
+   &.active {
+     visibility: visible;
+     opacity: 1;
+     transform: scale(1);
+     
+     .modal-content {
+       opacity: 1;
+     }
+     
+     .modal__close {
+       transform: translateY(10px);
+       opacity: 1;
+     }
+   }
+ }

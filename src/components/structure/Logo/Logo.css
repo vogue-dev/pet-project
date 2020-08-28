@@ -1,0 +1,10 @@
+.header-logo .logo {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header-logo .logo:hover {
+    color: gray;
+    text-decoration: none;
+}

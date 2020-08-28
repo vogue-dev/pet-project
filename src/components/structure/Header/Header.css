@@ -1,0 +1,120 @@
+header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(0, 0, 0, 0.15);
+	color: white;
+	z-index: 1001;
+}
+
+header .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100%;
+}
+
+.header-logo {
+	flex: 2;
+}
+.header-menu {
+	flex: 8;
+}
+.header-login {
+	flex: 2;
+}
+
+.header-menu span,
+.header-login span {
+	margin: 0 20px;
+	display: inline-block;
+	line-height: 1;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	-webkit-transition: color 0.3s ease-in-out;
+	-moz--transition: color 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out;
+}
+
+.header-menu span:hover,
+.header-login span:hover {
+	color: gray;
+	-webkit-transition: width, color 0.3s ease-in-out;
+	-moz--transition: width, color 0.3s ease-in-out;
+	transition: width, color 0.3s ease-in-out;
+}
+
+.header-menu span:after,
+.header-login span:after {
+	position: relative;
+	background-color: red;
+	display: block;
+	content: '';
+	top: 5px;
+	height: 2px;
+	width: 0%;
+	-webkit-transition: width 0.3s ease-in-out;
+	-moz--transition: width 0.3s ease-in-out;
+	transition: width 0.3s ease-in-out;
+}
+
+.header-menu span:hover:after,
+.header-menu span:focus:after,
+.header-login span:hover:after,
+.header-login span:focus:after {
+	width: 100%;
+}
+
+.container-right {
+	position: absolute;
+	top: 0px;
+	right: -250px;
+	width: 250px;
+	height: 100vh;
+	background-color: black;
+	z-index: 990;
+	-webkit-transition: right 0.5s ease-in-out;
+	-o-transition: right 0.5s ease-in-out;
+	transition: right 0.5s ease-in-out;
+}
+
+.container-right-show {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 250px;
+	height: 100vh;
+	background-color: black;
+	z-index: 990;
+	-webkit-transition: right 0.3s ease-in-out;
+	-o-transition: right 0.3s ease-in-out;
+	transition: right 0.3s ease-in-out;
+}
+
+.container-right :first-child,
+.container-right-show :first-child {
+	margin-top: 60px;
+}
+
+.container-right-show .lvl-1 {
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.container-right-show .lvl-1:hover {
+	-o-transform: translate(10px);
+	-ms-transform: translate(10px);
+	-moz-transform: translate(10px);
+	-webkit-transform: translate(10px);
+	transform: translate(10px);
+	cursor: pointer;
+}
+
+.modal-right {
+	cursor: pointer;
+	color: red;
+}

@@ -1,0 +1,21 @@
+.container-right ul li a, .container-right-show ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.container-right ul li a:hover, .container-right-show ul li a:hover {
+    color: gray;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px 0px;
+}
+
+.container-right ul li, .container-right-show ul li {
+    padding: 10px 0px;
+}
+
+.container-right ul, .container-right-show ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}

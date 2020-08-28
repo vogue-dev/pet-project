@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vogue-dev/pet-project.git/static/css/main.f5b78c33.chunk.css",
+    "main.js": "/vogue-dev/pet-project.git/static/js/main.02970d26.chunk.js",
+    "main.js.map": "/vogue-dev/pet-project.git/static/js/main.02970d26.chunk.js.map",
+    "runtime-main.js": "/vogue-dev/pet-project.git/static/js/runtime-main.62ea0cda.js",
+    "runtime-main.js.map": "/vogue-dev/pet-project.git/static/js/runtime-main.62ea0cda.js.map",
+    "static/js/2.7ef8b19c.chunk.js": "/vogue-dev/pet-project.git/static/js/2.7ef8b19c.chunk.js",
+    "static/js/2.7ef8b19c.chunk.js.map": "/vogue-dev/pet-project.git/static/js/2.7ef8b19c.chunk.js.map",
+    "index.html": "/vogue-dev/pet-project.git/index.html",
+    "precache-manifest.b99107a8e2edcabf7bd945d81bc184ee.js": "/vogue-dev/pet-project.git/precache-manifest.b99107a8e2edcabf7bd945d81bc184ee.js",
+    "service-worker.js": "/vogue-dev/pet-project.git/service-worker.js",
+    "static/css/main.f5b78c33.chunk.css.map": "/vogue-dev/pet-project.git/static/css/main.f5b78c33.chunk.css.map",
+    "static/js/2.7ef8b19c.chunk.js.LICENSE.txt": "/vogue-dev/pet-project.git/static/js/2.7ef8b19c.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/vogue-dev/pet-project.git/static/media/wow.83ada8d2.jpg",
+    "static/media/WeatherApp.css": "/vogue-dev/pet-project.git/static/media/polygon.cc54c19b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62ea0cda.js",
+    "static/js/2.7ef8b19c.chunk.js",
+    "static/css/main.f5b78c33.chunk.css",
+    "static/js/main.02970d26.chunk.js"
+  ]
+}

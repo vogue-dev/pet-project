@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/pet-project/static/css/main.c1f75533.chunk.css",
-    "main.js": "/pet-project/static/js/main.d90eb625.chunk.js",
-    "main.js.map": "/pet-project/static/js/main.d90eb625.chunk.js.map",
+    "main.js": "/pet-project/static/js/main.16b2108b.chunk.js",
+    "main.js.map": "/pet-project/static/js/main.16b2108b.chunk.js.map",
     "runtime-main.js": "/pet-project/static/js/runtime-main.043af224.js",
     "runtime-main.js.map": "/pet-project/static/js/runtime-main.043af224.js.map",
-    "static/js/2.9ec21ce7.chunk.js": "/pet-project/static/js/2.9ec21ce7.chunk.js",
-    "static/js/2.9ec21ce7.chunk.js.map": "/pet-project/static/js/2.9ec21ce7.chunk.js.map",
+    "static/js/2.114d6f4e.chunk.js": "/pet-project/static/js/2.114d6f4e.chunk.js",
+    "static/js/2.114d6f4e.chunk.js.map": "/pet-project/static/js/2.114d6f4e.chunk.js.map",
     "index.html": "/pet-project/index.html",
-    "precache-manifest.2bf9f13866cb5e68c778b33826c6051a.js": "/pet-project/precache-manifest.2bf9f13866cb5e68c778b33826c6051a.js",
+    "precache-manifest.688dcbc2488e60acaaf5d30b8cb99c45.js": "/pet-project/precache-manifest.688dcbc2488e60acaaf5d30b8cb99c45.js",
     "service-worker.js": "/pet-project/service-worker.js",
     "static/css/main.c1f75533.chunk.css.map": "/pet-project/static/css/main.c1f75533.chunk.css.map",
-    "static/js/2.9ec21ce7.chunk.js.LICENSE.txt": "/pet-project/static/js/2.9ec21ce7.chunk.js.LICENSE.txt",
+    "static/js/2.114d6f4e.chunk.js.LICENSE.txt": "/pet-project/static/js/2.114d6f4e.chunk.js.LICENSE.txt",
     "static/media/button__close.png": "/pet-project/static/media/button__close.b1aecd10.png",
     "static/media/Main.css": "/pet-project/static/media/wow.83ada8d2.jpg",
     "static/media/WeatherApp.css": "/pet-project/static/media/polygon.cc54c19b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.043af224.js",
-    "static/js/2.9ec21ce7.chunk.js",
+    "static/js/2.114d6f4e.chunk.js",
     "static/css/main.c1f75533.chunk.css",
-    "static/js/main.d90eb625.chunk.js"
+    "static/js/main.16b2108b.chunk.js"
   ]
 }

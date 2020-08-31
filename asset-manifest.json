@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pet-project/static/css/main.7dfcdf5e.chunk.css",
+    "main.css": "/pet-project/static/css/main.9d69e157.chunk.css",
     "main.js": "/pet-project/static/js/main.43c61c5c.chunk.js",
     "main.js.map": "/pet-project/static/js/main.43c61c5c.chunk.js.map",
     "runtime-main.js": "/pet-project/static/js/runtime-main.043af224.js",
@@ -8,9 +8,9 @@
     "static/js/2.114d6f4e.chunk.js": "/pet-project/static/js/2.114d6f4e.chunk.js",
     "static/js/2.114d6f4e.chunk.js.map": "/pet-project/static/js/2.114d6f4e.chunk.js.map",
     "index.html": "/pet-project/index.html",
-    "precache-manifest.2eea5c14b4d275800fa86ad2ba35485f.js": "/pet-project/precache-manifest.2eea5c14b4d275800fa86ad2ba35485f.js",
+    "precache-manifest.90412f657aadc9bf0c3ed8e52dff58d7.js": "/pet-project/precache-manifest.90412f657aadc9bf0c3ed8e52dff58d7.js",
     "service-worker.js": "/pet-project/service-worker.js",
-    "static/css/main.7dfcdf5e.chunk.css.map": "/pet-project/static/css/main.7dfcdf5e.chunk.css.map",
+    "static/css/main.9d69e157.chunk.css.map": "/pet-project/static/css/main.9d69e157.chunk.css.map",
     "static/js/2.114d6f4e.chunk.js.LICENSE.txt": "/pet-project/static/js/2.114d6f4e.chunk.js.LICENSE.txt",
     "static/media/button__close.png": "/pet-project/static/media/button__close.b1aecd10.png",
     "static/media/Main.css": "/pet-project/static/media/wow.83ada8d2.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.043af224.js",
     "static/js/2.114d6f4e.chunk.js",
-    "static/css/main.7dfcdf5e.chunk.css",
+    "static/css/main.9d69e157.chunk.css",
     "static/js/main.43c61c5c.chunk.js"
   ]
 }

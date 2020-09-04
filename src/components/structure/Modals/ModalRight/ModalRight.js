@@ -27,7 +27,7 @@ export default class ModalRight extends Component {
 						<Link to={{ pathname: '/clicker' }}>Clicker ( Mini Game )</Link>
 					</li>
 					<li>
-						<Link to={{ pathname: '/ecommerce' }}>Ecommerce ( Sushi Shop )</Link>
+						<Link to={{ pathname: 'https://e-shop-ua.herokuapp.com/' }}>E-commerce (shop)</Link>
 					</li>
 				</ul>
 

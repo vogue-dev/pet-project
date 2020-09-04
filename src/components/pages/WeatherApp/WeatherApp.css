@@ -1,84 +1,100 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .weather-app__block {
-    padding-top: 60px;
-    height: 100vh;
-    background: url(../../../img/polygon.jpg) no-repeat;
-    color: black;
-    text-align: center;
+	padding-top: 60px;
+	height: 100vh;
+	background: url(../../../img/polygon.jpg) no-repeat;
+	color: black;
+	text-align: center;
 }
 
 .weather-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 60px;
-    color: black;
-    background: linear-gradient(45deg, rgb(45,176,224) 0%, rgb(57, 77, 255) 50%, rgb(96,40,168) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	padding-top: 60px;
+	color: black;
+	background: linear-gradient(
+		45deg,
+		rgb(45, 176, 224) 0%,
+		rgb(57, 77, 255) 50%,
+		rgb(96, 40, 168) 100%
+	);
 }
 
 .main {
-    position: absolute;
-    height: 55vh;
-    width: 60%;
-    margin: 0 auto;
-    border-radius: 5px;
+	position: absolute;
+	height: 55vh;
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 5px;
 }
 
 .row {
-    display: flex;
-    height: 350px;
+	display: flex;
+	height: 350px;
 }
 
-.left-side, .right-side {
-    flex: 1;
-    text-align: center;
+.left-side,
+.right-side {
+	flex: 1;
+	text-align: center;
 }
 
 .info {
-    background: url(../../../img/polygon.jpg) no-repeat;
-    background-blend-mode: multiply;
-    background-color: #484747;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #000;
-    border-radius: 5px;
-    margin-right: 10px;
-    box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+	background: url(../../../img/polygon.jpg) no-repeat;
+	background-blend-mode: multiply;
+	background-color: #484747;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #000;
+	border-radius: 5px;
+	margin-right: 10px;
+	box-shadow: 0px 2px 80px -20px rgba(0, 0, 0, 0.5);
 }
 
 .form {
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.20);
-    box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
-    /* padding-top: 50px; */
-    /* padding-left: 25px; */
-    /* border-top: 2px solid #113a65;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 80px -20px rgba(0, 0, 0, 0.5);
+	/* padding-top: 50px; */
+	/* padding-left: 25px; */
+	/* border-top: 2px solid #113a65;
     border-bottom: 2px solid #113a65;
     border-right: 2px solid #113a65; */
 }
 
+select {
+	padding: 0 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.weather-form {
+	display: inline-flex;
+}
+
 input {
-    background-color: transparent;
-    border: 0;
-    border-bottom: solid 2px #113a65;
-    width: 50%;
-    padding-bottom: 4px;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-right: 20px;
-    font-size: 20px;
-    outline: none;
+	background-color: transparent;
+	border: 0;
+	border-bottom: solid 2px #113a65;
+	width: 50%;
+	padding-bottom: 4px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	font-size: 20px;
+	outline: none;
 }
 
 input::-webkit-input-placeholder {
-    color: #103a65;
+	color: #103a65;
 }
 
 /* input:-internal-autofill-selected {
@@ -86,75 +102,75 @@ input::-webkit-input-placeholder {
 } */
 
 input::-moz-placeholder {
-    color: #103a65;
+	color: #103a65;
 }
 
 .button-weather {
-    padding: 8px 20px;
-    margin: 0 2px;
-    border-radius: 5px;
-    height: 50px;
-    font-size: 0.25em;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.15);
-    color: #fff;
-    outline: none!important;
+	padding: 8px 20px;
+	margin-left: 10px;
+	border-radius: 5px;
+	height: 50px;
+	font-size: 0.25em;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.15);
+	color: #fff;
+	outline: none !important;
 }
 
 .button-weather:hover {
-    position: relative;
-    top: 1px;
+	position: relative;
+	top: 1px;
 }
 
 .button-weather:active {
-    border-bottom: 2px solid transparent;
-    border-color: transparent;
-    position: relative;
-    top: 2px;
+	border-bottom: 2px solid transparent;
+	border-color: transparent;
+	position: relative;
+	top: 2px;
 }
 
 .info h2 {
-    font-size: 0.5em;
-    color: #fff;
-    margin-bottom: 50px;
+	font-size: 0.5em;
+	color: #fff;
+	margin-bottom: 30px;
 }
 
 .info p {
-    font-size: 0.25em;
-    color: #e4e4e4;
-    font-weight: bold;
+	font-size: 0.25em;
+	color: #e4e4e4;
+	font-weight: bold;
 }
 
 .info-weather {
-    padding-top: 50px;
-    width: 100%;
-    font-size: 20px;
-    color: #fff;
+	padding-top: 30px;
+	width: 100%;
+	font-size: 20px;
+	color: #fff;
 }
 
 .error {
-    color: red;
-    font-weight: bold;
+	color: red;
+	font-weight: bold;
 }
 
 .real__time {
-    position: absolute;
-    color: white;
-    top: -95px;
-    width: 100%;
-    height: 50px;
-    font-size: 30px;
+	position: absolute;
+	color: white;
+	top: -95px;
+	width: 100%;
+	height: 50px;
+	font-size: 30px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .real__time .wrap {
-    text-align: left;
-    padding: 5px 30px;
-    width: 260px;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.20);
-    box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+	text-align: left;
+	padding: 5px 30px;
+	width: 260px;
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 80px -20px rgba(0, 0, 0, 0.5);
 }

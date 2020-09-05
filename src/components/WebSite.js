@@ -101,7 +101,7 @@ export default class WebSite extends Component {
 
 	render() {
 		return (
-			<div>
+			<div class="wrapper">
 				<Overlay
 					isModalActive={this.state.isModalActive}
 					handleClick={this.handleClick}

@@ -70,7 +70,9 @@ export default class WebSite extends Component {
 
 	escFunction = (event, close) => {
 		if (event.keyCode === 27 || close === true) {
-			this.setState({ isModalActive: false });
+			if (this.state.isActiveModalRight === true) {
+				this.setState({ isModalActive: false, isActiveModalRight: false });
+			} else this.setState({ isModalActive: false });
 		}
 	};
 
@@ -86,10 +88,6 @@ export default class WebSite extends Component {
 			isActiveModalRight: !this.state.isActiveModalRight,
 		});
 	};
-
-	logIn = () => {};
-
-	logOut = () => {};
 
 	componentDidMount() {
 		document.addEventListener('keydown', this.escFunction, false);
@@ -109,6 +107,7 @@ export default class WebSite extends Component {
 					escFunction={this.escFunction}
 				/>
 				<Header
+					isModalActive={this.state.isModalActive}
 					handleClick={this.handleClick}
 					toggleModalRight={this.toggleModalRight}
 					isActiveModalRight={this.state.isActiveModalRight}
@@ -120,7 +119,7 @@ export default class WebSite extends Component {
 					numberOfContentModal={this.state.numberOfContentModal}
 					modalData={this.state.modalData}
 				/>
-				<Main />
+				<Main handleClick={this.handleClick} />
 				<Footer />
 			</div>
 		);

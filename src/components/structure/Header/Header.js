@@ -45,7 +45,9 @@ export default class Header extends Component {
 					</div>
 
 					<ModalRight
+						handleClick={this.props.handleClick}
 						isActiveModalRight={this.props.isActiveModalRight}
+						isModalActive={this.props.isModalActive}
 						toggleModalRight={this.props.toggleModalRight}
 					/>
 				</div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './WeatherApp.css';
+import './WeatherApp.scss';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Info from './Info/Info.js';
 import Form from './Form/Form.js';
@@ -89,7 +89,7 @@ export default class WeatherApp extends Component {
 		return (
 			<section>
 				<div className="container-content">
-					<div className="weather-section" style={{ fontSize: '70px' }}>
+					<div className="weather-section">
 						<div className="main">
 							<div className="real__time">
 								<div className="wrap">Now: {this.state.date.toLocaleTimeString()}</div>

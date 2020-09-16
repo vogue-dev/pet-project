@@ -48,6 +48,9 @@ header .container {
 		display: flex;
 		align-items: center;
 	}
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 .header-menu span,

@@ -19,19 +19,43 @@ export default class WebSite extends Component {
 					id: 0,
 					title: 'About Me',
 					content:
-						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco  laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+						"Skilled and motivated front-end developer with 5+ years of experience in front-end development and digital marketing. Created more than 15 e-commerce and SPA websites. Seeking a front-end developer position with company which will require me to utilize my skills, abilities and experience in the IT field to ensure the company's success.",
 				},
 				{
 					id: 1,
 					title: 'Technologies',
-					content:
-						'HTML/CSS, basic knowledge of JavaScript, jQuery, Bootstrap, SASS/LESS, GIT, BEM. Experience with Adobe Photoshop, Adobe Illustrator and Figma.',
+					content: (
+						<ul>
+							<li>HTML5, SCSS/SASS</li>
+							<li>JavaScript, TypeScript, jQuery</li>
+							<li>React & Redux</li>
+							<li>Webpack</li>
+							<li>JSON API</li>
+							<li>Bootstrap, Materiale UI</li>
+							<li>Flex, Grid</li>
+							<li>axios, react-router-dom, redux-thunk, prop-types</li>
+						</ul>
+					),
 				},
 				{
 					id: 2,
 					title: 'Contacts',
-					content:
-						'Время консультаций 10:00-20:00 - Без выходных Заказы онлайн - круглосуточно, контактный телефон для связи: +38 (095) 790 03 63',
+					content: (
+						<ul>
+							<li>Oprya Mark, 25 years</li>
+							<li>Tel: +380 (95) 706 72 36</li>
+							<li>Email: oprya.mark@gmail.com</li>
+							<li>Telegram: @markoprya</li>
+							<li>City: Kiev, Ukraine</li>
+							<li>
+								GitHub: <a href="https://github.com/vogue-dev">https://github.com/vogue-dev</a>
+							</li>
+							<li>
+								LinkedIn:{' '}
+								<a href="https://linkedin.com/in/vogue-dev/">https://linkedin.com/in/vogue-dev/</a>
+							</li>
+						</ul>
+					),
 				},
 				{
 					id: 3,

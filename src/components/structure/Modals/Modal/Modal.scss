@@ -51,6 +51,10 @@ $easing: cubic-bezier(0.55, 0, 0.1, 1);
 		backface-visibility: hidden;
 		transition: opacity $speed $easing, transform $speed $easing;
 		transition-delay: $delay;
+		@media (max-width: 800px) {
+			top: 20px;
+			right: 20px;
+		}
 	} // close modal
 
 	.modal__title {

@@ -65,7 +65,7 @@ export default class ModalRight extends Component {
 						<a href="https://vogue-dev.github.io/slider-pureJS/">Slider (NativeJS)</a>
 					</li>
 					<li>
-						<a href="https://e-shop-ua.herokuapp.com/">BaloonGame (NativeJS)</a>
+						<a href="https://vogue-dev.github.io/balloonGame-pureJS/">BaloonGame (NativeJS)</a>
 					</li>
 					<li>
 						<a href="https://e-shop-ua.herokuapp.com/">E-commerce</a>

@@ -59,13 +59,16 @@ export default class ModalRight extends Component {
 						<Link to={{ pathname: '/weather-app' }}>Weather App</Link>
 					</li>
 					<li>
-						<Link to={{ pathname: '/clicker' }}>Clicker ( Mini Game )</Link>
+						<Link to={{ pathname: '/clicker' }}>ClickerGame</Link>
 					</li>
 					<li>
-						<a href="https://vogue-dev.github.io/slider-pureJS/">NativeJS-Slider</a>
+						<a href="https://vogue-dev.github.io/slider-pureJS/">Slider (NativeJS)</a>
 					</li>
 					<li>
-						<a href="https://e-shop-ua.herokuapp.com/">E-commerce (shop)</a>
+						<a href="https://e-shop-ua.herokuapp.com/">BaloonGame (NativeJS)</a>
+					</li>
+					<li>
+						<a href="https://e-shop-ua.herokuapp.com/">E-commerce</a>
 					</li>
 				</ul>
 
